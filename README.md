@@ -13,4 +13,4 @@ a web config tool for njit-client
 
 4.make之
 
-5.发现任何bug或建议请前往http://www.right.com.cn/forum/thread-110404-1-1.html，望不吝赐教！
+5.发现任何bug或建议请前往http://www.right.com.cn/forum/thread-110404-1-1.html
