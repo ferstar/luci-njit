@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "njit"
+msgstr "西北大学H3C认证"
+
+msgid "A H3C supplicant on Linux"
+msgstr "一个用于linux h3c上网认证的前端程序 源码作者：liuqun 前端作者：ferstar"
+
+msgid "Config njit"
+msgstr "配置客户端"
+
+msgid "NJIT-CLIENT"
+msgstr "校园网认证"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "The options below are all of njit's arguments."
+msgstr "填入下列要求信息后请点击保存应用，很快路由器即可完成拨号认证，以后路由器启动会自动拨号认证，无需人工干预"
+
+msgid "Username"
+msgstr "帐号/学号"
+
+msgid "net card name"
+msgstr "网卡名"
+
+msgid "Please make sure you have chose the right net card."
+msgstr "请确定您选择了正确的网卡，稳定版OP一般会是eth0.2,对应WAN口"

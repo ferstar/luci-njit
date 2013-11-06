@@ -1,0 +1,21 @@
+#!/bin/sh /etc/rc.common
+#Author:ferstar
+#Email:zhangjianfei3@gmail.com
+
+START=55
+
+start()
+{
+	njit-client $(uci get njit.@njit[0].Username) $(uci get njit.@njit[0].Password) $(uci get njit.@njit[0].Nic) &
+}
+
+stop()
+{
+	killall njit-client
+}
+
+restart()
+{
+stop
+start
+}
