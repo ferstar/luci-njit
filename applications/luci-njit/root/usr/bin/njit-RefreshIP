@@ -1,3 +1,5 @@
 #!/bin/sh
 killall udhcpc
+#if your kernel version is 3.0 or above,please remove # in line 4 and remove the whole line 5 for better performance in your device.
+#udhcpc -p /var/run/udhcpc-$(uci get njit.@njit[0].Nic).pid -s /lib/netifd/
 udhcpc -t 0 -i $(uci get njit.@njit[0].Nic) -b -p /var/run/dhcp-$(uci get njit.@njit[0].Nic).pid
