@@ -3,19 +3,20 @@ luci-njit
 
 a web config tool for njit-client
 
-±àÒë·½·¨£º
+ç¼–è¯‘æ–¹æ³•ï¼š
 
-1¡¢ÈçÏÂÂ·¾¶·ÅÖÃ£º
+1ã€å¦‚ä¸‹è·¯å¾„æ”¾ç½®ï¼š
+```
 /path/to/your/luci/
 		--applications/
-				--/luci-njit	#luciÏà¹Ø¿ò¼Ü¼°½Å±¾
+				--/luci-njit	#luciç›¸å…³æ¡†æ¶åŠè„šæœ¬
 		--po/
 			--/zh_CN
-				--/njit.po	#ÖĞÎÄ·­Òë£¬¿É×ÔĞĞĞŞ¸Ä
-
-2¡¢ĞŞ¸ÄmakefileÊ¹Æä³öÏÖÔÚmake menuconfigÖĞ£º
-makefileÎ»ÖÃ£ºcontrib/package/luci/Makefile ´ó¸Å20KB´óĞ¡£¬´ò¿ª£¬¶¨Î»µ½transmission£¬·ÂÕÕ¸ñÊ½×Ô¼ºÁíÆğÒ»¶Î£¬ÈçÏÂËùÊ¾£º
-####
+				--/njit.po	#ä¸­æ–‡ç¿»è¯‘ï¼Œå¯è‡ªè¡Œä¿®æ”¹
+```
+2ã€ä¿®æ”¹makefileä½¿å…¶å‡ºç°åœ¨make menuconfigä¸­ï¼š
+makefileä½ç½®ï¼š`contrib/package/luci/Makefile` å¤§æ¦‚20KBå¤§å°ï¼Œæ‰“å¼€ï¼Œå®šä½åˆ°transmissionï¼Œä»¿ç…§æ ¼å¼è‡ªå·±å¦èµ·ä¸€æ®µï¼Œå¦‚ä¸‹æ‰€ç¤ºï¼š
+```
 $(eval $(call application,minidlna,LuCI Support for miniDLNA,\
 	+PACKAGE_luci-app-minidlna:minidlna))
 
@@ -27,8 +28,8 @@ $(eval $(call application,njit,LuCI Support for njit,\
 
 $(eval $(call application,watchcat,LuCI Support for Watchcat,\
 	+PACKAGE_luci-app-watchcat:watchcat))
-####
+```
 
-×¢Òânjit8021xclientÊÇÆäÒÀÀµÄ£¿é£¬±ØĞëÌí¼Ó¡£
+æ³¨æ„njit8021xclientæ˜¯å…¶ä¾èµ–æ¨¡å—ï¼Œå¿…é¡»æ·»åŠ ã€‚
 
-3¡¢Õı³£±àÒëÁ÷³Ì¼´¿É¿´µ½njit³öÏÖÔÚluciÓ¦ÓÃÁĞ±íÀï£¬±àÒë¼´¿ÉµÃ¡«
+3ã€æ­£å¸¸ç¼–è¯‘æµç¨‹å³å¯çœ‹åˆ°njitå‡ºç°åœ¨luciåº”ç”¨åˆ—è¡¨é‡Œï¼Œç¼–è¯‘å³å¯å¾—ï½
