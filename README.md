@@ -33,3 +33,5 @@ $(eval $(call application,watchcat,LuCI Support for Watchcat,\
 注意njit8021xclient是其依赖模块，必须添加。
 
 3、正常编译流程即可看到njit出现在luci应用列表里，编译即可得～
+
+*此处已作古，勿念勿烧纸* `2015年09月30日11:35:16`
